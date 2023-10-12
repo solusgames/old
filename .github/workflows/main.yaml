@@ -1,4 +1,4 @@
-name: Auto upload
+name: Upload Website
 
 on:
   push:
