@@ -1,23 +1,17 @@
-<div style="text-align: center;">
-    <img width="15%" src="icon.png"></img>
-    <h1>Embedabbl</h1>
-    <h3>An easier way to embed games into your website.</h3>
-</div>
+# AwayFL Embed SWF Emu
 
-![Language](https://badgen.net/badge/license/MIT/red) ![Language](https://badgen.net/badge/language/HTML&CSS&JS/red)
-
-## This is stupid.
-I agree, most of these tools have their own way of embeding things into websites. I just happened to make myself a tool that makes it easier for me, and thought I'd share.
-Don't expect this to be a big deal, it's not.
+An easily embeddable url-query based page for the AwayFL Flash Emulator.
 
 ## Why?
-The internet is full of awesome platforms for playing games. This repo makes an attempt at making embeding some of these platforms a little easier.
+AwayFL is great but setting up to just put a simple swf on your web page can be slightly annoying.
+So, I've made the whole process as easy as making an iframe.
 
-## Usage
-Open the directory of each "core" and read the readme for examples.
+## Setup
+Using this is as easy as just making an iframe with your swf in it!
 
-## Plan
-The plan down the road is to add more "cores" and refactor all "borrowed" code, as well as make a library of some sort.
+### Working example
+```html
+  <iframe width="800px" height="600px" src="https://embedabbl.zombienw.com/awayfl/index.html?swf=https://embedabbl.zombienw.com/ruffle/test.swf" frameborder="0"></iframe>
+```
 
-
-> Yes we know it's spelled wrong in more ways than one.
+Test SWF Provided By [DePaul University](https://condor.depaul.edu/sjost/hci430/flash-examples.htm)
